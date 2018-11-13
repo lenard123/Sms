@@ -1,0 +1,77 @@
+body {
+    background-color: lightblue;
+}
+
+
+.container {
+    width: 500px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    margin:auto;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.form-group {
+    padding: 5px;
+    padding-right: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.btn-success{
+    background-color: rgb(0, 200, 0);
+    color: white;
+    border-color: green;
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+    border-color: gray;
+}
+
+.status {
+    width: 95%;
+    padding: 8px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.status-sending {
+    border-color: blue;
+    color: black;
+    background-color: lightblue;
+}
+
+.status-success {
+    border-color: green;
+    color: black;
+    background-color: lightgreen;
+}
+
+.status-failed {
+    border-color: red;
+    color: black;
+    background-color: pink;
+}
+
+.container h1 {
+    text-align: center;
+}
+
